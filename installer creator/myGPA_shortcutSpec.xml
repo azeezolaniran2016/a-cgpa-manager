@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="yes" ?>
+
+<!--
+    shortcutSpec.xml of Project Jefe using IzPack Installer to create windows shortcuts
+-->
+
+<shortcuts>
+
+    <skipIfNotSupported/>
+
+    <programGroup defaultName="myGPA" location="applications"/>
+
+      <shortcut
+        name="myGPA"
+        programGroup="yes"
+        desktop="yes"
+        applications="no"
+        startMenu="yes"
+        startup="no"
+        target="$INSTALL_PATH/myGPA.exe"
+        commandLine=""
+        description="Start myGPA"
+        iconFile="$INSTALL_PATH/lib/myGPAIcon.ico"
+        iconIndex="0"
+        initialState="noShow">
+
+         <createForPack name="core"/>
+
+       </shortcut>
+
+</shortcuts>

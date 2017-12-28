@@ -1,0 +1,2 @@
+Bugs Removed----
+	1: proceeding with creating the user for the first time despite notifying a password error / difference.

@@ -1,0 +1,6 @@
+derby.log
+*.seg0
+*.tmp
+.DS_Store
+azeez\ app/
+am\ app
